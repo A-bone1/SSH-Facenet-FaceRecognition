@@ -4,7 +4,9 @@
 This repository includes a face recognition and detection system based on **SSH** face detection network and **facenet** feature extraction network.
 
 This project can run on  Ubuntu 16.04, using the python3.5 or python2.7 environment.The SSH network is built using caffe and the facenet network is built using Tensorflow.**The two networks can be used combination or independently**.
+
 ##Contents
+
 1. [SSH Face Detection](#SSH Face Detection)
 2. [Facenet Face Recognition](#Facenet Face Recognition)
 3. [Open face recognition and detection remote service](#Open face recognition and detection remote service)
@@ -45,7 +47,7 @@ cd SSH
 python demo.py
 ```
 If everything goes well, the following detections should be saved as ```data/demo/demo_detections_SSH.png```.
-！[image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/SSH/data/demo/demo_detections_SSH.png)
+![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/SSH/data/demo/demo_detections_SSH.png)
 #### 3.Training a model
 If you want to train your own face detection model, you can see a detailed tutorial on this [github](https://github.com/mahyarnajibi/SSH)
 <a name="Facenet Face Recognition"></a>
@@ -63,18 +65,22 @@ You can quickly start facenet with pretrained Keras model (trained by MS-Celeb-1
 You can also create Keras model from pretrained tensorflow model.
 
 -Download model from [here](https://pan.baidu.com/s/1KDiuJ1GA3WqoAMg49aRsiw) and save it in model/tf/
--Convert model for Keras in facenet\notebook\tf_to_keras.ipynb
+-Convert model for Keras in [facenet\notebook\tf_to_keras.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/tf_to_keras.ipynb)
 
 #### 3. Running the demo
-(1)Open SSH face detection remote service
+(1) use SSHDetec Network
+-Open SSH face detection remote service
 ```
 python SSH/service.py
 ```
-(2)Run the Jupyter Notebook SSH_facenet.ipynb in facenet\notebook\
+-Run the Jupyter Notebook [SSH_facenet.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/SSH_facenet.ipynb) in facenet\notebook\
+(2)Only run Facenet Network
+-Run the Jupyter Notebook [demo-images.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/demo-images%20.ipynb) in facenet\notebook\ in facenet\notebook\
+
 #### 3.Training a model
 -If you want to train your own face detection model, you can see a detailed tutorial on this [Wiki](https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1)
 
--Convert model for Keras in facenet\notebook\tf_to_keras.ipynb
+-Convert model for Keras in [facenet\notebook\tf_to_keras.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/tf_to_keras.ipynb)
 
 <a name="Open face recognition and detection remote service"> </a>
 
