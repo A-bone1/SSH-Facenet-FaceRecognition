@@ -94,6 +94,6 @@ python SSH/service.py
 ```
 python facenet/Verificationservice.py
 ```
-(3)Use http protocol to access services.The demo is in the serviceTest\serviceTest.ipynb
+(3)Use http protocol to access services.The demo is in the [serviceTest\serviceTest.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/serviceTest/serviceTest.ipynb)
 ![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/serviceTest/demoImg/detectService.jpg)
 ![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/serviceTest/demoImg/recogService.jpg)
