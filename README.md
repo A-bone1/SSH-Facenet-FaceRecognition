@@ -8,8 +8,8 @@ This project can run on  Ubuntu 16.04, using the python3.5 or python2.7 environm
 ## Contents
 
 1. [SSH Face Detection](#SSH)
-2. [Facenet Face Recognition](#Facenet Face Recognition)
-3. [Open face recognition and detection remote service](#Open face recognition and detection remote service)
+2. [Facenet Face Recognition](#Facenet)
+3. [Open face recognition and detection remote service](#Open)
 
 
 <a name="SSH"> </a>
@@ -49,8 +49,8 @@ If everything goes well, the following detections should be saved as ```data/dem
 ![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/SSH/data/demo/demo_detections_SSH.png)
 #### 3.Training a model
 If you want to train your own face detection model, you can see a detailed tutorial on this [github](https://github.com/mahyarnajibi/SSH)
-<a name="Facenet Face Recognition"></a>
 
+<a name="Facenet"></a>
 ### Facenet Face Recognition
 More details of the network can be found in this paper:[FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832)
 #### 1. Introduction
@@ -81,8 +81,7 @@ python SSH/service.py
 
 -Convert model for Keras in [facenet\notebook\tf_to_keras.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/tf_to_keras.ipynb)
 
-<a name="Open face recognition and detection remote service"> </a>
-
+<a name="Open"> </a>
 ### Open face recognition and detection remote service
 
 (1)Open a command line window(ctrl+alt+T/Wins +r),and open the face detection service.
