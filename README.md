@@ -13,7 +13,6 @@ This project can run on  Ubuntu 16.04, using the python3.5 or python2.7 environm
 
 
 <a name="SSH Face Detection"> </a>
-
 ### SSH Face Detection
 This project was modified based on the author's [source code](https://github.com/mahyarnajibi/SSH) of the SSH network.
 
