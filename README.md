@@ -45,6 +45,7 @@ cd SSH
 python demo.py
 ```
 If everything goes well, the following detections should be saved as ```data/demo/demo_detections_SSH.png```.
+！[image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/SSH/data/demo/demo_detections_SSH.png)
 #### 3.Training a model
 If you want to train your own face detection model, you can see a detailed tutorial on this [github](https://github.com/mahyarnajibi/SSH)
 <a name="Facenet Face Recognition"></a>
@@ -88,3 +89,5 @@ python SSH/service.py
 python facenet/Verificationservice.py
 ```
 (3)Use http protocol to access services.The demo is in the serviceTest\serviceTest.ipynb
+![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/serviceTest/demoImg/detectService.jpg)
+![image](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/serviceTest/demoImg/recogService.jpg)
