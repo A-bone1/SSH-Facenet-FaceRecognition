@@ -7,12 +7,12 @@ This project can run on  Ubuntu 16.04, using the python3.5 or python2.7 environm
 
 ## Contents
 
-1. [SSH Face Detection](#SSH Face Detection)
+1. [SSH Face Detection](#SSH)
 2. [Facenet Face Recognition](#Facenet Face Recognition)
 3. [Open face recognition and detection remote service](#Open face recognition and detection remote service)
 
 
-<a name="SSH Face Detection"> </a>
+<a name="SSH"> </a>
 ### SSH Face Detection
 This project was modified based on the author's [source code](https://github.com/mahyarnajibi/SSH) of the SSH network.
 
