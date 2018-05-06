@@ -67,12 +67,12 @@ You can also create Keras model from pretrained tensorflow model.
 -Convert model for Keras in [facenet\notebook\tf_to_keras.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/tf_to_keras.ipynb)
 
 #### 3. Running the demo
-(1) use SSHDetec Network
--Open SSH face detection remote service
+(1) use SSHDetec Network.
+first ，Open SSH face detection remote service
 ```
 python SSH/service.py
 ```
--Run the Jupyter Notebook [SSH_facenet.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/SSH_facenet.ipynb) in facenet\notebook\
+and then Run the Jupyter Notebook [SSH_facenet.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/SSH_facenet.ipynb) in facenet\notebook\
 (2)Only run Facenet Network
 
 -Run the Jupyter Notebook [demo-images.ipynb](https://github.com/A-bone1/SSH-Facenet-FaceRecognition/blob/master/facenet/notebook/demo-images%20.ipynb) in facenet\notebook\ in facenet\notebook\
